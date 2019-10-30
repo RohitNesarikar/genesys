@@ -17,13 +17,13 @@ int main()
         arr[i]=tempn%10;
         tempn=tempn/10;
     }
-    for(i=0;i<20;i++)    //sort digits
+    for(i=0;i<5;i++)    //sort digits
     {
         for(j=i+1;j<5;j++)
         {
             if(arr[i]<arr[j])
             {
-                tempn=arr[i]
+                tempn=arr[i];
                 arr[i]=arr[j];
                 arr[j]=tempn;
             }
@@ -34,5 +34,5 @@ int main()
     {
         printf("%d",arr[i]);
     }
- 
+ retrun 0;
 }
